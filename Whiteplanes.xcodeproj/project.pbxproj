@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49F17521CD5F01000F082FF /* Whiteplanes.h in Headers */ = {isa = PBXBuildFile; fileRef = F49F17511CD5F01000F082FF /* Whiteplanes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49F17591CD5F01000F082FF /* Whiteplanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F174E1CD5F01000F082FF /* Whiteplanes.framework */; };
+		F49F175E1CD5F01000F082FF /* WhiteplanesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F175D1CD5F01000F082FF /* WhiteplanesTests.swift */; };
+		F49F17691CD5F96300F082FF /* Whiteplanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F17681CD5F96300F082FF /* Whiteplanes.swift */; };
+		F49F17751CD619B800F082FF /* Count.ws in Resources */ = {isa = PBXBuildFile; fileRef = F49F176B1CD619B500F082FF /* Count.ws */; };
+		F49F17761CD619BC00F082FF /* FlowControl.ws in Resources */ = {isa = PBXBuildFile; fileRef = F49F176C1CD619B500F082FF /* FlowControl.ws */; };
+		F49F17771CD619C100F082FF /* HeapControl.ws in Resources */ = {isa = PBXBuildFile; fileRef = F49F176D1CD619B500F082FF /* HeapControl.ws */; };
+		F49F17781CD619C500F082FF /* HelloWorld.ws in Resources */ = {isa = PBXBuildFile; fileRef = F49F176E1CD619B500F082FF /* HelloWorld.ws */; };
+		F49F17791CD619C700F082FF /* Input.ws in Resources */ = {isa = PBXBuildFile; fileRef = F49F176F1CD619B500F082FF /* Input.ws */; };
+		F49F177A1CD61C9100F082FF /* Whiteplanes.swift in Headers */ = {isa = PBXBuildFile; fileRef = F49F17681CD5F96300F082FF /* Whiteplanes.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F49F175A1CD5F01000F082FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49F17451CD5F01000F082FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49F174D1CD5F01000F082FF;
+			remoteInfo = Whiteplanes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F49F174E1CD5F01000F082FF /* Whiteplanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Whiteplanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49F17511CD5F01000F082FF /* Whiteplanes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whiteplanes.h; sourceTree = "<group>"; };
+		F49F17531CD5F01000F082FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49F17581CD5F01000F082FF /* WhiteplanesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteplanesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49F175D1CD5F01000F082FF /* WhiteplanesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteplanesTests.swift; sourceTree = "<group>"; };
+		F49F175F1CD5F01000F082FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49F17681CD5F96300F082FF /* Whiteplanes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whiteplanes.swift; sourceTree = "<group>"; };
+		F49F176B1CD619B500F082FF /* Count.ws */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Count.ws; path = Resources/Count.ws; sourceTree = "<group>"; };
+		F49F176C1CD619B500F082FF /* FlowControl.ws */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FlowControl.ws; path = Resources/FlowControl.ws; sourceTree = "<group>"; };
+		F49F176D1CD619B500F082FF /* HeapControl.ws */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HeapControl.ws; path = Resources/HeapControl.ws; sourceTree = "<group>"; };
+		F49F176E1CD619B500F082FF /* HelloWorld.ws */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HelloWorld.ws; path = Resources/HelloWorld.ws; sourceTree = "<group>"; };
+		F49F176F1CD619B500F082FF /* Input.ws */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Input.ws; path = Resources/Input.ws; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49F174A1CD5F01000F082FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49F17551CD5F01000F082FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49F17591CD5F01000F082FF /* Whiteplanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49F17441CD5F01000F082FF = {
+			isa = PBXGroup;
+			children = (
+				F49F17501CD5F01000F082FF /* Sources */,
+				F49F175C1CD5F01000F082FF /* Tests */,
+				F49F174F1CD5F01000F082FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49F174F1CD5F01000F082FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49F174E1CD5F01000F082FF /* Whiteplanes.framework */,
+				F49F17581CD5F01000F082FF /* WhiteplanesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49F17501CD5F01000F082FF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F49F17511CD5F01000F082FF /* Whiteplanes.h */,
+				F49F17681CD5F96300F082FF /* Whiteplanes.swift */,
+				F49F17531CD5F01000F082FF /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F49F175C1CD5F01000F082FF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F49F176A1CD6182E00F082FF /* Resources */,
+				F49F175D1CD5F01000F082FF /* WhiteplanesTests.swift */,
+				F49F175F1CD5F01000F082FF /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F49F176A1CD6182E00F082FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F49F176B1CD619B500F082FF /* Count.ws */,
+				F49F176C1CD619B500F082FF /* FlowControl.ws */,
+				F49F176D1CD619B500F082FF /* HeapControl.ws */,
+				F49F176E1CD619B500F082FF /* HelloWorld.ws */,
+				F49F176F1CD619B500F082FF /* Input.ws */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F49F174B1CD5F01000F082FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49F17521CD5F01000F082FF /* Whiteplanes.h in Headers */,
+				F49F177A1CD61C9100F082FF /* Whiteplanes.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F49F174D1CD5F01000F082FF /* Whiteplanes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49F17621CD5F01000F082FF /* Build configuration list for PBXNativeTarget "Whiteplanes" */;
+			buildPhases = (
+				F49F17491CD5F01000F082FF /* Sources */,
+				F49F174A1CD5F01000F082FF /* Frameworks */,
+				F49F174B1CD5F01000F082FF /* Headers */,
+				F49F174C1CD5F01000F082FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whiteplanes;
+			productName = Whiteplanes;
+			productReference = F49F174E1CD5F01000F082FF /* Whiteplanes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F49F17571CD5F01000F082FF /* WhiteplanesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49F17651CD5F01000F082FF /* Build configuration list for PBXNativeTarget "WhiteplanesTests" */;
+			buildPhases = (
+				F49F17541CD5F01000F082FF /* Sources */,
+				F49F17551CD5F01000F082FF /* Frameworks */,
+				F49F17561CD5F01000F082FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49F175B1CD5F01000F082FF /* PBXTargetDependency */,
+			);
+			name = WhiteplanesTests;
+			productName = WhiteplanesTests;
+			productReference = F49F17581CD5F01000F082FF /* WhiteplanesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49F17451CD5F01000F082FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Takuya Katsurada";
+				TargetAttributes = {
+					F49F174D1CD5F01000F082FF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F49F17571CD5F01000F082FF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F49F17481CD5F01000F082FF /* Build configuration list for PBXProject "Whiteplanes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F49F17441CD5F01000F082FF;
+			productRefGroup = F49F174F1CD5F01000F082FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49F174D1CD5F01000F082FF /* Whiteplanes */,
+				F49F17571CD5F01000F082FF /* WhiteplanesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49F174C1CD5F01000F082FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49F17561CD5F01000F082FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49F17771CD619C100F082FF /* HeapControl.ws in Resources */,
+				F49F17781CD619C500F082FF /* HelloWorld.ws in Resources */,
+				F49F17751CD619B800F082FF /* Count.ws in Resources */,
+				F49F17761CD619BC00F082FF /* FlowControl.ws in Resources */,
+				F49F17791CD619C700F082FF /* Input.ws in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49F17491CD5F01000F082FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49F17691CD5F96300F082FF /* Whiteplanes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49F17541CD5F01000F082FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49F175E1CD5F01000F082FF /* WhiteplanesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F49F175B1CD5F01000F082FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49F174D1CD5F01000F082FF /* Whiteplanes */;
+			targetProxy = F49F175A1CD5F01000F082FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F49F17601CD5F01000F082FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F49F17611CD5F01000F082FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F49F17631CD5F01000F082FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nutcrack.Whiteplanes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F49F17641CD5F01000F082FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nutcrack.Whiteplanes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F49F17661CD5F01000F082FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nutcrack.WhiteplanesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F49F17671CD5F01000F082FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nutcrack.WhiteplanesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49F17481CD5F01000F082FF /* Build configuration list for PBXProject "Whiteplanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49F17601CD5F01000F082FF /* Debug */,
+				F49F17611CD5F01000F082FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49F17621CD5F01000F082FF /* Build configuration list for PBXNativeTarget "Whiteplanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49F17631CD5F01000F082FF /* Debug */,
+				F49F17641CD5F01000F082FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49F17651CD5F01000F082FF /* Build configuration list for PBXNativeTarget "WhiteplanesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49F17661CD5F01000F082FF /* Debug */,
+				F49F17671CD5F01000F082FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49F17451CD5F01000F082FF /* Project object */;
+}
