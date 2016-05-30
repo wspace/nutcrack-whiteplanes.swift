@@ -1,5 +1,4 @@
-# Whiteplanes
-
+# Whiteplanes.swift
 Whiteplane is a whitespace interpreter writen in Swift.
 
 ## Whitespace
